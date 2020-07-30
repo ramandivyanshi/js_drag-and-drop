@@ -1,0 +1,89 @@
+#dropZone,
+#animals {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 200px;
+  margin-bottom: 20px;
+}
+
+#dropBox1 {
+  height: 300px;
+  width: 500px;
+  border: 10px solid #f35771;
+  border-radius: 20px;
+}
+
+#dropBox2 {
+  height: 300px;
+  width: 500px;
+  border: 10px solid #aae64b;
+  border-radius: 20px;
+}
+
+h1 {
+  padding: 20px;
+  margin-left: 14%;
+  color: #630978;
+  font-size: 50px;
+}
+
+#fruits {
+  margin-left: 14%;
+  padding: 60px;
+}
+
+.boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.dragon {
+  color: #f04763;
+  font-weight: bolder;
+  margin-left: 17%;
+  font-size: 40px;
+}
+
+.kiwi {
+  color: #96f03c;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-left: 35%;
+}
+
+body {
+  background: -webkit-gradient(linear, left bottom, right top, from(#7ee616), to(#fa788e));
+  background: linear-gradient(to right top, #7ee616, #fa788e);
+}
+
+@media all and (min-width: 320px) and (max-width: 780px) {
+  .boxes {
+    padding-left: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  h1 {
+    margin-left: 5%;
+  }
+  #fruits {
+    margin-left: 5%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DnD Game</title>
+    <link rel="stylesheet" href="./assets/stylesheets/style.css">
+</head>
+
+<body>
+    <h1>Drag and collect the fruits in their matching boxes</h1>
+    <div class="boxes">
+
+        <div id="dropBox1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="https://img.icons8.com/color/2x/dragon-fruit.png" width="45px" />
+            <p class="dragon">DRAGONFRUITS </p>
+        </div>
+        <div id="dropBox2" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="https://img.icons8.com/emoji/2x/kiwi-fruit.png" width="45px" />
+            <p class="kiwi">Kiwies </p>
+        </div>
+
+    </div>
+    <div id="fruits" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img id="dragon" src="https://img.icons8.com/color/2x/dragon-fruit.png" draggable="true" ondragstart="drag(event)">
+        <img id="dragon1" src="https://img.icons8.com/color/2x/dragon-fruit.png" draggable="true" ondragstart="drag(event)">
+        <img id="kiwi" src="https://img.icons8.com/emoji/2x/kiwi-fruit.png" draggable="true" ondragstart="drag(event)">
+        <img id="kiwi1" src="https://img.icons8.com/emoji/2x/kiwi-fruit.png" draggable="true" ondragstart="drag(event)">
+        <img id="dragon2" src="https://img.icons8.com/color/2x/dragon-fruit.png" draggable="true" ondragstart="drag(event)">
+        <img id="kiwi2" src="https://img.icons8.com/emoji/2x/kiwi-fruit.png" draggable="true" ondragstart="drag(event)">
+        <img id="dragon3" src="https://img.icons8.com/color/2x/dragon-fruit.png" draggable="true" ondragstart="drag(event)">
+        <img id="kiwi3" src="https://img.icons8.com/emoji/2x/kiwi-fruit.png" draggable="true" ondragstart="drag(event)">
+        <img id="dragon4" src="https://img.icons8.com/color/2x/dragon-fruit.png" draggable="true" ondragstart="drag(event)">
+        <img id="kiwi4" src="https://img.icons8.com/emoji/2x/kiwi-fruit.png" draggable="true" ondragstart="drag(event)">
+
+    </div>
+
+    <script src="./assets/scripts/main.js"></script>
+</body>
