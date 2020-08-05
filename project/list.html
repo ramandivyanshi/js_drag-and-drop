@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/stylesheets/style_list.css">
+</head>
+
+<body>
+    <h1>DRAG AND DROP TODO</h1>
+    <div class="container">
+
+        <div class="undone" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2>*Drag to change order* <br> <br> Add Your ToDo!</h2>
+            <input type="text" id="myInput" placeholder="add your to do...">
+            <button onclick="newList()" class="addBtn">Add</button>
+            <ul id="myUl">
+                <li id="li_one" draggable="true" ondragstart="drag(event)">HTML</li>
+                <li id="li_two" draggable="true" ondragstart="drag(event)">CSS</li>
+                <li id="li_three" draggable="true" ondragstart="drag(event)">SCSS</li>
+                <li id="li_four" draggable="true" ondragstart="drag(event)">JS</li>
+            </ul>
+        </div>
+        <div class="done" id="dropBox2" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2>*Drop the done todos here* <br> <br> DONE!</h2>
+        </div>
+        <div class="cancelled" id="dropBox2" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2>*Drop the cancelled todos* <br><br> Cancelled!
+            </h2>
+        </div>
+    </div>
+</body>
+<script src="./assets/scripts/main_list.js"></script>
+
+</html>

@@ -1,0 +1,80 @@
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#c9c6c9), to(#1b1a1b));
+  background: linear-gradient(#c9c6c9, #1b1a1b);
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 50px;
+  padding-bottom: 200px;
+}
+
+h1 {
+  margin-top: 80px;
+  margin-left: 38%;
+}
+
+button {
+  border-radius: 20px;
+}
+
+input {
+  border-radius: 20px;
+  border-style: none;
+  height: 20px;
+}
+
+.undone {
+  width: 300px;
+  border-radius: 20px;
+  padding: 40px;
+  background: yellow;
+}
+
+.done {
+  width: 300px;
+  border-radius: 20px;
+  padding: 40px;
+  background-color: green;
+}
+
+.cancelled {
+  width: 300px;
+  border-radius: 20px;
+  padding: 40px;
+  background-color: red;
+}
+
+li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 20px;
+  background-color: white;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+.x {
+  padding: 0px 5px 0 5px;
+  border-radius: 20px;
+  width: 5%;
+  color: red;
+}
+/*# sourceMappingURL=style_list.css.map */
